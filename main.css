@@ -1,9 +1,4 @@
-.nav {
-  border: 1px solid;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #E0E0E0;
-  }
+
 
 .nav a {
   color:#5a5a5a;
@@ -24,6 +19,6 @@
   display: inline;
 }
 
-.nav span {
-  float:left;
+.nav ul {
+  display: inline;
 }
