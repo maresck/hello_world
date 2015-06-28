@@ -2,23 +2,34 @@
   padding-top: 50px;
 }
 
+#tag-line {
+  font-size: 15px;
+  font-style: bold;
+}
+
+span {
+  position:absolute;
+  top: 65px;
+}
+
 .my-nav {
-  /*margin-top: 55px;/*
-  /*float: left;*/
   padding-top: 40px;
   font-family: 'Raleway', sans-serif;
-  /*border: 1px solid;*/
+  padding-bottom: 100px;
+
 }
 
 .my-nav ul {
-list-style-type: none;
-display: inline;
+  list-style-type: none;
+  display: inline;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 .my-nav ul li {
   display: inline;
   margin-right: 20px;
-  font-size: 13px;
+  font-size: 10px;
   font-color: black;
 }
 
@@ -31,14 +42,23 @@ display: inline;
   font-size: 50px;
   text-transform: uppercase;
   margin-top: 0px;
+  padding-bottom: 0px;
   font-family: 'Raleway Dots', cursive;
-  /*border: 1px solid;*/
 }
 
 .my-name p {
   border: none;
 }
 
-.row img {
+.my-experience {
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  padding-left: 0px;
+
+}
+
+.my-photos img {
+  display: block;
   width: 100%;
+  padding-bottom: 15px;
 }
