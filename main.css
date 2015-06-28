@@ -29,7 +29,7 @@ span {
 .my-nav ul li {
   display: inline;
   margin-right: 20px;
-  font-size: 10px;
+  font-size: 11px;
   font-color: black;
 }
 
@@ -52,6 +52,7 @@ span {
 
 .my-experience {
   font-size: 15px;
+  line-height: 21px; /* 3px + 15 px + 3px */
   font-family: 'Raleway', sans-serif;
   padding-left: 0px;
 
@@ -68,6 +69,7 @@ span {
   font-size: 15px;
   font-family: 'Raleway', sans-serif;
   padding-left: 0px;
+  padding-bottom: 10px;
 }
 
 .my-languages {
@@ -75,4 +77,15 @@ span {
   font-size: 15px;
   font-family: 'Raleway', sans-serif;
   padding-left: 0px;
+  padding-bottom: 10px;
+
+}
+
+.my-service  {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  padding-left: 0px;
+  padding-bottom: 10px;
+
 }
